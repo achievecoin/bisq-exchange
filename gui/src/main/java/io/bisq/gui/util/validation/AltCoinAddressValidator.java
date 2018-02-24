@@ -432,7 +432,10 @@ public final class AltCoinAddressValidator extends InputValidator {
                         return new ValidationResult(false, getErrorMessage(e));
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/master
                 case "CDT":
                     if (input.startsWith("D"))
                         return new ValidationResult(true);
@@ -455,6 +458,9 @@ public final class AltCoinAddressValidator extends InputValidator {
                         return regexTestFailed;
                     else
                         return new ValidationResult(true);
+<<<<<<< HEAD
+>>>>>>> upstream/master
+=======
 >>>>>>> upstream/master
                 case "ACH":
                     try {
@@ -464,7 +470,10 @@ public final class AltCoinAddressValidator extends InputValidator {
                         return new ValidationResult(false, getErrorMessage(e));
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/master
                 case "VDN":
                     if (!input.matches("^[D][0-9a-zA-Z]{33}$"))
                         return regexTestFailed;

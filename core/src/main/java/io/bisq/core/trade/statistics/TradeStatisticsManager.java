@@ -258,14 +258,20 @@ public class TradeStatisticsManager {
         newlyAdded.add("DARX");
         newlyAdded.add("ODN");
 <<<<<<< HEAD
+<<<<<<< HEAD
         newlyAdded.add("ACH");
 =======
+=======
+>>>>>>> upstream/master
         newlyAdded.add("CDT");
         newlyAdded.add("DGM");
         newlyAdded.add("SCS");
         newlyAdded.add("SOS");
         newlyAdded.add("ACH");
         newlyAdded.add("VDN");
+<<<<<<< HEAD
+>>>>>>> upstream/master
+=======
 >>>>>>> upstream/master
 
         coinsWithValidator.addAll(newlyAdded);
