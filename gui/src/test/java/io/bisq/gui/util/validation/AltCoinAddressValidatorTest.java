@@ -645,11 +645,6 @@ public class AltCoinAddressValidatorTest {
     }
 
     @Test
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> upstream/master
     public void testCDT() {
         AltCoinAddressValidator validator = new AltCoinAddressValidator();
         validator.setCurrencyCode("CDT");
@@ -712,10 +707,6 @@ public class AltCoinAddressValidatorTest {
     }
 
     @Test
-<<<<<<< HEAD
->>>>>>> upstream/master
-=======
->>>>>>> upstream/master
     public void testACH() {
         AltCoinAddressValidator validator = new AltCoinAddressValidator();
         validator.setCurrencyCode("ACH");
@@ -729,11 +720,6 @@ public class AltCoinAddressValidatorTest {
         assertFalse(validator.validate("17VZNX1SN5NtKa8UQFxwQbFeFc3iqRYhem").isValid);
         assertFalse(validator.validate("").isValid);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> upstream/master
 
     @Test
     public void testVDN() {
@@ -752,8 +738,4 @@ public class AltCoinAddressValidatorTest {
         assertFalse(validator.validate("DG1KpSsSXd3uitgwHaA1i6T1Bj1hWLONGER").isValid);
         assertFalse(validator.validate("HG1KpSsSXd3uitgwHaA1i6T1Bj1hWEwAxB").isValid);
     }
-<<<<<<< HEAD
->>>>>>> upstream/master
-=======
->>>>>>> upstream/master
 }
